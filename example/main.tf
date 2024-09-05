@@ -1,4 +1,4 @@
-module example {
-    source="../"
-    name = "my-first-namespace"
+module "example" {
+  source = "../"
+  name   = "my-first-namespace"
 }
