@@ -6,7 +6,7 @@ module "example" {
   source = "natalika12/namespace/kubernetes"
   name   = "my-first-namespace"
   number_of_pods = 36
-  lables = {
+  labels = {
     env = "dev"
     createdBy = "terraform"
   }
