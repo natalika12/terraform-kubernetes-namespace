@@ -10,7 +10,7 @@ variable number_of_pods {
   description = "The number of pods to create"
 }
 
-variable lables {
+variable labels {
   type = map
   default = {}
   description = "Lables to apply to the namespace"
