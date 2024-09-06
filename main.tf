@@ -1,7 +1,7 @@
 resource "kubernetes_namespace" "this" {
   metadata {
     name = var.name
-    lables = var.lables
+    labels = var.labels
   }
 }
 
