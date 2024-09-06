@@ -1,15 +1,17 @@
 # Usage
 
 ### Add the following into your file
-'''
+```
 module "example" {
-  source = "../"
-  name   = "my-first-namespace"
+  source         = "natalika12/namespace/kubernetes"
+  name           = "my-first-namespace"
+  number_of_pods = 36
 }
-'''
+
+```
 
 ### run the following commands
-'''
+```
 terraform init
 terraform apply
-'''
+```
